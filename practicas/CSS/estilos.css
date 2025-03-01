@@ -1,0 +1,62 @@
+header{
+    background-color: 
+    rgb(68, 111, 138);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nota{
+    padding: 5px;
+    margin: 4px;
+    background-color: rgb(206, 218, 222);
+    border: 1px solid rgb(63, 11, 131);
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#agregar{
+    background-color: rgb(3, 167, 82);
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #dadada00;
+    
+}
+
+#salir{
+    background-color: rgb(3, 167, 82);
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #dadada00;
+    
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-buttons button{
+    background-color: rgb(122, 64, 127);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-buttons button:hover{
+    background-color: rgb(9, 87, 67);
+}

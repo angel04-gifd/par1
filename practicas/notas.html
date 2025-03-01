@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Notas</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Mis Notas</h1>
+    </header>
+
+    <!-- Botones de navegación -->
+    <div class="nav-buttons">
+        <button onclick="mostrarAlerta('Regresaste a la página anterior')">Atrás</button>
+        <button onclick="mostrarAlerta('Has regresado al inicio')">Inicio</button>
+    </div>
+
+    <!-- Lista de notas -->
+    <div class="notas" id="lista-notas">
+        <div class="nota">
+            <p><strong>Nota 1:</strong> Recordar estudiar HTML5 y CSS3.</p>
+        </div>
+        <div class="nota">
+            <p><strong>Nota 2:</strong> Diseñar UI para desarrollo móvil.</p>
+        </div>
+    </div> 
+
+    <!-- Botón para añadir notas -->
+    <button class="anadir-notas" onclick="mostrarAlerta('Has añadido una nota')">Añadir Nota</button>
+    
+  
+    <button onclick="regresar1()">Regresar</button>
+    
+    <!-- Mandar llamar el archivo Javascript de manera externa -->
+    <script src="js/notas.js"></script>
+</body>
+</html>
